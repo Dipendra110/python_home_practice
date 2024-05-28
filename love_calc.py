@@ -1,0 +1,15 @@
+girl_name=input("Enter the girl full name:")
+girl_name.lower()
+boy_name=input("Enter the boy full name:")
+boy_name.lower()
+T=girl_name.count("t") + boy_name.count("t")
+R=girl_name.count("r") + boy_name.count("r")
+U=girl_name.count("u") + boy_name.count("u")
+E=girl_name.count("e") + boy_name.count("e")
+true=T+R+U+E
+L=girl_name.count("l") + boy_name.count("l")
+O=girl_name.count("o") + boy_name.count("o")
+V=girl_name.count("v") + boy_name.count("v")
+E=girl_name.count("e") + boy_name.count("e")
+love=L+O+V+E
+print(f"Your love percentage is {true}{love}%")
